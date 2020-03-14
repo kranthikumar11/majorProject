@@ -1,0 +1,246 @@
+{"intents":
+	[
+		{"tag":"greetings",
+		"patterns":["Hi there", "whats up?","Is anyone there?","Hey","Hola", "Hello","Hi","Hi buddy!"],
+		"responses":["hello,Enter your Symptoms"],
+		"context":[""]
+		},
+		{"tag": "name",
+         "patterns": ["what's your name?", "name","team name","Who's your father?"],
+         "responses": ["I was developed by Kranthi,Vishnu,Venu and Pranay"],
+         "context": [""]
+        },
+		{"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["Have a nice day,Type 'quit' to end this session", "Bye! Come back again soon,Type 'quit' to end this session"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!Type 'quit' to end this session", "Any time!Type 'quit' to end this session", "My pleasure,Type 'quit' to end this session"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can analyze your symptoms", "I offer support for your healthcare"],
+         "context": [""]
+        },
+		{"tag":"fever",
+		"patterns":["high temperature","headache","whooping cough"],
+		"responses":["Your are suffering from fever"],
+		"context":[""]
+		},
+		{"tag":"Fungal infection",
+		"patterns":["itching","skin rash","nodal skin eruptions","dischromic patches"],
+		"responses":["Fungal infection"],
+		"context":[""]
+		},
+		{"tag":"Allergy",
+		"patterns":["continuous sneezing","shivering","chills","watering from eyes"],
+		"responses":["Allergy"],
+		"context":[""]
+		},
+		{"tag":"GERD",
+		"patterns":["stomach pain","acidity","ulcers on tongue","vomiting","cough","chest pain"],
+		"responses":["GERD"],
+		"context":[""]
+		},
+		{"tag":"Chronic cholestasis",
+		"patterns":["itching","vomiting","yellowish skin","nausea","loss of appetite","abdominal pain","yellowing of eyes"],
+		"responses":["Chronic cholestasis"],
+		"context":[""]
+		},
+		{"tag":"Drug Reaction",
+		"patterns":["itching","skin rash","stomach pain","burning micturition","spotting","urination"],
+		"responses":["Drug Reaction"],
+		"context":[""]
+		},
+		{"tag":"Peptic ulcer disease",
+		"patterns":["vomiting","indigestion","loss of appetite","abdominal pain","passage of gases","internal itching"],
+		"responses":["Peptic ulcer disease"],
+		"context":[""]
+		},
+		{"tag":"AIDS",
+		"patterns":["muscle wasting","patches in throat","high fever","extra marital contacts"],
+		"responses":["AIDS"],
+		"context":[""]
+		},
+		{"tag":"Diabetes",
+		"patterns":["fatigue","weight loss","restlessness","lethargy","irregular sugar level","blurred and distorted vision","obesity","excessive_hunger","increased_appetite","polyuria"],
+		"responses":["Diabetes"],
+		"context":[""]
+		},
+		{"tag":"Gastroenteritis",
+		"patterns":["vomiting","sunken eyes","dehydration","diarrhoea"],
+		"responses":["Gastroenteritis"],
+		"context":[""]
+		},
+		{"tag":"Bronchial Asthma",
+		"patterns":["fatigue","cough","high fever","breathlessness","family history","mucoid sputum"],
+		"responses":["Bronchial Asthma"],
+		"context":[""]
+		},
+		{"tag":"Hypertension",
+		"patterns":["headache","chest pain","dizziness","loss of balance","lack of concentration"],
+		"responses":["Hypertension"],
+		"context":[""]
+		},
+		{"tag":"Migraine",
+		"patterns":["acidity","indigestion","headache","blurred and distorted vision","excessive hunger","stiff neck","depression","irritability","visual disturbances"],
+		"responses":["Migraine"],
+		"context":[""]
+		},
+		{"tag":"Cervical spondylosis",
+		"patterns":["back pain","weakness in limbs","neck pain","dizziness","loss of balance"],
+		"responses":["Cervical spondylosis"],
+		"context":[""]
+		},
+		{"tag":"Paralysis (brain hemorrhage)",
+		"patterns":["vomiting","headache","weakness of one body side","altered sensorium"],
+		"responses":["Paralysis (brain hemorrhage)"],
+		"context":[""]
+		},
+		{"tag":"Jaundice",
+		"patterns":["itching","vomiting","fatigue","weight loss","high fever","yellowish skin","dark urine","abdominal pain"],
+		"responses":["Jaundice"],
+		"context":[""]
+		},
+		{"tag":"Malaria",
+		"patterns":["chills","vomiting","high fever","sweating","headache","nausea","diarrhoea","muscle pain"],
+		"responses":["Malaria"],
+		"context":[""]
+		},
+		{"tag":"Chicken pox",
+		"patterns":["itching","skin rash","fatigue","lethargy","high fever","headache","loss of appetite","mild fever","swelled lymph nodes","malaise","red spots over body"],
+        "responses":["Chicken pox"],
+        "context":[""]
+		},
+		{"tag":"Dengue",
+		"patterns":["skin rash","chills","joint pain","vomiting","fatigue","high fever","headache","nausea","loss of appetite","pain behind the eyes","back pain","malaise","muscle pain","red spots over body"],
+        "responses":["Dengue"],
+        "context":[""]
+		},
+		{"tag":"Typhoid",
+		"patterns":["chills","vomiting","fatigue","high fever","headache","nausea","constipation","abdominal pain","diarrhoea","toxic look typhos","belly pain"],
+        "responses":["Typhoid"],
+        "context":[""]
+		},
+		{"tag":"hepatitis A",
+		"patterns":["joint pain","vomiting","yellowish skin","dark urine","nausea","loss of appetite","abdominal pain","diarrhoea","mild fever","yellowing of eyes","muscle pain"],
+        "responses":["hepatitis A"],
+        "context":[""]
+		},
+		{"tag":"Hepatitis B",
+		"patterns":["itching","fatigue","lethargy","yellowish skin","dark urine","loss of appetite","abdominal pain","yellow urine","yellowing of eyes","malaise","receiving blood transfusion","receiving unsterile injections"],
+        "responses":["Hepatitis B"],
+        "context":[""]
+		},
+		{"tag":"Hepatitis C",
+		"patterns":["fatigue","yellowish skin","nausea","loss of appetite","yellowing of eyes","family history"],
+        "responses":["Hepatitis C"],
+        "context":[""]
+		},
+		{"tag":"Hepatitis D",
+		"patterns":["joint pain","vomiting","fatigue","yellowish skin","dark urine","nausea","loss of appetite","abdominal pain","yellowing of eyes"],
+        "responses":["Hepatitis D"],
+        "context":[""]
+		},
+		{"tag":"Hepatitis E",
+		"patterns":["joint pain","vomiting","fatigue","high fever","yellowish skin","dark urine","nausea","loss of appetite","abdominal pain","yellowing of eyes","acute liver failure","coma","stomach bleeding"],
+        "responses":["Hepatitis E"],
+        "context":[""]
+		},
+		{"tag":"Alcoholic hepatitis",
+		"patterns":["vomiting","yellowish skin","abdominal pain","swelling of stomach","distention of abdomen","history of alcohol consumption","fluid overload"],
+        "responses":["Alcoholic hepatitis"],
+        "context":[""]
+		},
+		{"tag":"Tuberculosis",
+		"patterns":["chills","vomiting","fatigue","weight loss","cough","high fever","breathlessness","sweating","loss of appetite","mild fever","yellowing of eyes","swelled lymph nodes","malaise","phlegm","chest pain","blood in sputum"],
+        "responses":["Tuberculosis"],
+        "context":[""]
+		},
+		{"tag":"Common Cold",
+		"patterns":["continuous sneezing","chills","fatigue","cough","high fever","headache","swelled lymph nodes","malaise","phlegm","throat irritation","redness of eyes","sinus pressure","runny nose","congestion","chest pain","loss of smell","muscle pain"],
+        "responses":["Common Cold"],
+        "context":[""]
+		},
+		{"tag":"Pneumonia",
+		"patterns":["chills","fatigue","cough","high fever","breathlessness","sweating","malaise","phlegm","chest pain","fast heart rate","rusty sputum"],
+        "responses":["Pneumonia"],
+        "context":[""]
+		},
+		{"tag":"Dimorphic hemmorhoids(piles)",
+		"patterns":["constipation","pain during bowel movements","pain in anal region","bloody stool","irritation in anus"],
+        "responses":["Dimorphic hemmorhoids(piles)"],
+        "context":[""]
+		},
+		{"tag":"Heart attack",
+		"patterns":["vomiting","breathlessness","sweating","chest pain"],
+        "responses":["Heart attack"],
+        "context":[""]
+		},
+		{"tag":"Varicose veins",
+		"patterns":["fatigue","cramps","bruising","obesity","swollen legs","swollen blood vessels","prominent veins on calf"],
+        "responses":["Varicose veins"],
+        "context":[""]
+		},
+		{"tag":"Hypothyroidism",
+		"patterns":["fatigue","weight gain","cold hands and feets","mood swings","lethargy","dizziness","puffy face and eyes","enlarged thyroid","brittle nails","swollen extremeties","depression","irritability","abnormal menstruation"],
+        "responses":["Hypothyroidism"],
+        "context":[""]
+		},
+		{"tag":"Hyperthyroidism",
+		"patterns":["fatigue","mood swings","weight loss","restlessness","sweating","diarrhoea","fast heart rate","excessive hunger","muscle weakness","irritability","abnormal menstruation"],
+        "responses":["Hyperthyroidism"],
+        "context":[""]
+		},
+		{"tag":"Hypoglycemia",
+		"patterns":["vomiting","fatigue","anxiety","sweating","headache","nausea","blurred and distorted vision","excessive hunger","drying and tingling lips","slurred speech","irritability","palpitations"],
+        "responses":["Hypoglycemia"],
+        "context":[""]
+		},
+		{"tag":"Osteoarthristis",
+		"patterns":["joint pain","neck pain","knee pain","hip joint pain","swelling joints","painful walking"],
+        "responses":["Osteoarthristis"],
+        "context":[""]
+		},
+		{"tag":"Arthritis",
+		"patterns":["muscle weakness","stiff neck","swelling joints","movement stiffness","painful walking"],
+        "responses":["Arthritis"],
+        "context":[""]
+		},
+		{"tag":"Paroymsal Positional Vertigo",
+		"patterns":["vomiting","headache","nausea","spinning movements","loss of balance","unsteadiness"],
+        "responses":["Paroymsal Positional Vertigo"],
+        "context":[""]
+		},
+		{"tag":"Acne",
+		"patterns":["skin rash","pus filled pimples","blackheads","scurring"],
+        "responses":["Acne"],
+        "context":[""]
+		},
+		{"tag":"Urinary tract infection",
+		"patterns":["burning micturition","bladder discomfort","foul smell of urine","continuous feel of urine"],
+        "responses":["Urinary tract infection"],
+        "context":[""]
+		},
+		{"tag":"Psoriasis",
+		"patterns":["skin rash","joint pain","skin peeling","silver like dusting","small dents in nails","inflammatory nails"],
+        "responses":["Psoriasis"],
+        "context":[""]
+		},
+		{"tag":"Impetigo",
+		"patterns":["skin rash","high fever","blister","red sore around nose","yellow crust ooze"],
+        "responses":["Impetigo"],
+        "context":[""]
+		}
+		
+	]
+	
+}
