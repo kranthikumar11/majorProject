@@ -25,7 +25,7 @@ conda install nb_conda
 
 pip install anvil-uplink
 
-##for connecting to anvil server
+##for installing anvil server's uplink
 
 
 
